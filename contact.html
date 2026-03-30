@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact - UniCert Korea</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* 헤더 */
+header {
+    background: #0a2a5e;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+/* 컨텐츠 */
+.container {
+    padding: 40px;
+}
+
+h2 {
+    color: #0a2a5e;
+}
+
+/* 폼 */
+form {
+    background: white;
+    padding: 30px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #0a2a5e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #163d82;
+}
+
+/* 회사 정보 */
+.info {
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>UniCert Korea</h1>
+    <nav>
+        <a href="index.html">홈</a>
+        <a href="about.html">회사소개</a>
+        <a href="service.html">서비스</a>
+        <a href="contact.html">문의</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Contact Us</h2>
+    <p>문의사항이 있으시면 아래 양식을 작성해 주세요.</p>
+
+    <form>
+        <label>이름</label>
+        <input type="text" placeholder="Your Name">
+
+        <label>이메일</label>
+        <input type="email" placeholder="Your Email">
+
+        <label>문의 내용</label>
+        <textarea rows="5" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+        <h3>회사 정보</h3>
+        <p>UniCert Korea</p>
+        <p>Email: info@unicert.co.kr</p>
+        <p>Tel: +82-2-1234-5678</p>
+    </div>
+</div>
+
+</body>
+</html>
